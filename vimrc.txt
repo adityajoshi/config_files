@@ -1,0 +1,47 @@
+" My vim setup
+
+highlight ColorColumn ctermbg=darkgray
+set autochdir
+set autoindent
+set backspace=indent,eol,start
+set cindent
+set expandtab
+set hlsearch
+set tw=79
+set nowrap
+set fo-=t
+set colorcolumn=80
+set ignorecase
+set incsearch
+set linebreak
+set number
+set ruler
+set shiftwidth=3
+set showbreak=+++
+set showmatch
+set smartcase
+set smartindent
+set smarttab
+set softtabstop=3
+set textwidth=100
+set undolevels=1000
+set clipboard=unnamed
+set t_Co=256
+
+execute pathogen#infect()
+call pathogen#helptags()
+syntax on
+filetype plugin indent on
+
+map <F2> :NERDTreeToggle<CR>
+
+" Rebind <leader> key
+let mapleader = "," 
+
+" easier moving between tabs
+map <Leader>n <esc>:tabnext<CR>
+map <Leader>m <esc>:tabprevious<CR>
+
+colorscheme elflord
+
+highlight ColorColumn ctermbg=233
