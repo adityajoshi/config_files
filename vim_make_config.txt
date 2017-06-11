@@ -1,0 +1,4 @@
+# VIM build configuration 
+# run below command and then do make 
+
+./configure --enable-pythoninterp --with-features=huge
