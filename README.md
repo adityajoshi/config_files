@@ -1,2 +1,2 @@
-# vim_config
-My vim configuration
+# vim_tmux_config
+My vim, tmux configuration
