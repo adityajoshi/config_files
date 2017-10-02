@@ -1,4 +1,4 @@
-# My Configuration Repo. 
+# My Dot Files. 
 Configurations for linux tools used by me.
 
 Config maintained so far for
