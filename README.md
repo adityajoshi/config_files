@@ -1,4 +1,4 @@
-# My Dot Files. 
+# My config Files. 
 Configurations for linux tools used by me.
 
 Config maintained so far for
