@@ -1,0 +1,15 @@
+terminal: xfce4-terminal
+
+startup_apps:
+  - command: wofi --show drun --allow-images
+  - command: waybar
+    restart_on_death: true
+  - command: swaybg -i /home/aditya/Pictures/black_wallpaper.jpg
+    restart_on_death: true
+
+custom_actions:
+  - command: wofi --show drun --allow-images
+    action: down
+    modifiers:
+        - primary
+    key: KEY_D
